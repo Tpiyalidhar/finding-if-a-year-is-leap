@@ -1,1 +1,15 @@
 The file contains the code that I wrote to find if a year is leap
+for x in range(1500,2011):
+    remainder= x%4
+    rem2= x%100
+    rem3=x%400
+    if remainder==0
+       if rem2==0
+          if rem3==0
+             print(x,"is a leap year")
+           else:
+            print(x,"not a leap year")
+        else:
+            print(x, "is a leap year")
+    else:
+        print(x, "not a leap year")
